@@ -1,0 +1,13 @@
+# 忽略 Python 运行产物与编辑器临时文件
+__pycache__/
+*.pyc
+*.pyo
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# IAR 编译中间产物（保留源码与工程文件，不提交 obj / list / Exe）
+Projects/zstack/Samples/*/CC2530DB/*/Obj/
+Projects/zstack/Samples/*/CC2530DB/*/List/
+Projects/zstack/Samples/*/CC2530DB/*/Exe/
